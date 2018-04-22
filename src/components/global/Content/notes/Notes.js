@@ -10,7 +10,67 @@ class Notes extends Component {
   render() {
     return(
       <div className="Notes">
-                  <ul id="listado">
+                  <ul>
+                        <li>
+                              <div className="Title">Texto 1</div>
+                              <div className="copybutton">
+                                    <span className="icon-copy"></span>
+                              </div>
+                        </li>
+                        <li>
+                              <div className="Title">Texto 1</div>
+                              <div className="copybutton">
+                                    <span className="icon-copy"></span>
+                              </div>
+                        </li>
+                        <li>
+                              <div className="Title">Texto 1</div>
+                              <div className="copybutton">
+                                    <span className="icon-copy"></span>
+                              </div>
+                        </li>
+                        <li>
+                              <div className="Title">Texto 1</div>
+                              <div className="copybutton">
+                                    <span className="icon-copy"></span>
+                              </div>
+                        </li>
+                        <li>
+                              <div className="Title">Texto 1</div>
+                              <div className="copybutton">
+                                    <span className="icon-copy"></span>
+                              </div>
+                        </li>
+                        <li>
+                              <div className="Title">Texto 1</div>
+                              <div className="copybutton">
+                                    <span className="icon-copy"></span>
+                              </div>
+                        </li>
+                        <li>
+                              <div className="Title">Texto 1</div>
+                              <div className="copybutton">
+                                    <span className="icon-copy"></span>
+                              </div>
+                        </li>
+                        <li>
+                              <div className="Title">Texto 1</div>
+                              <div className="copybutton">
+                                    <span className="icon-copy"></span>
+                              </div>
+                        </li>
+                        <li>
+                              <div className="Title">Texto 1</div>
+                              <div className="copybutton">
+                                    <span className="icon-copy"></span>
+                              </div>
+                        </li>
+                        <li>
+                              <div className="Title">Texto 1</div>
+                              <div className="copybutton">
+                                    <span className="icon-copy"></span>
+                              </div>
+                        </li>
                         <li>
                               <div className="Title">Texto 1</div>
                               <div className="copybutton">
