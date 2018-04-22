@@ -6,14 +6,16 @@ class Footer extends Component {
     return(
       <div className="Footer">
         <div className="NavFooter">
-        	<div className="Check">
-        		<p>Derechos Reservados | IdeasPositivas</p>
-        	</div>
 
-        	<div className="Copy">
-        		<h1 className="Clear"><span className="icon-clear"></span></h1>
-        		<h1 className="CopyStep"><span className="icon-copy"></span></h1>
-        	</div>
+          <div className="Copyright">
+            <p>Derechos Reservados | IdeasPositivas</p>
+          </div>
+
+          <div className="Action">
+            <h1 className="Clear"><span className="icon-clear"></span></h1>
+            <h1 className="CopyStep"><span className="icon-copy"></span></h1>
+          </div>
+        
         </div>
       </div>
     );

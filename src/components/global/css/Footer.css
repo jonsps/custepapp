@@ -1,74 +1,56 @@
 .Footer {
 	display: flex;
 	width: 100%;
+	height: 50px;
 	border-top: 1px solid #ececec;
 
 }
 
-.NavFooter{
-	padding: 10px;
+.NavFooter {
 	width: 800px;
-	height: 40px;
 	display: flex;
-	flex-flow: row nowrap;
 }
 
-.Check{
-	display: flex;
+.Copyright {
 	width: 400px;
-	flex:1 1 auto;
+	display: flex;
+	align-items: center;
 }
 
-.Check p {
-	flex:1 1 auto;
-	padding: 10px;
+.Copyright p {
+	width: 100%;
+	text-align: left;
 	color: #808080;
-	margin-right: 5px;
 }
 
-.Check p:hover {
-	color: #444444;
-}
-
-.Copy{
+.Action {
+	padding: 5px 0px 5px 0px;
 	width: 400px;
-	margin-left: 5px; 
 	display: flex;
-	flex-flow: row nowrap;
-	flex:1 1 auto;
 }
 
 .Clear {
-	padding: 10px;
-	display: flex;
 	background: #ff0066;
-	text-align: center;
-	color: #ffffff;
 	border-radius: 50px 0px 0px 50px;
-	border: 2px solid  #ff0066;
 	flex:1 1 auto;
+	display: flex;
+	align-items: center;
 }
 
 .Clear:hover {
 	background: #d90057;
-	border-color: #d90057;
 }
 
 .CopyStep {
-	padding: 10px;
-	display: flex;
 	background: #ffcc00;
-	text-align: center;
-	color: #ffffff;
 	border-radius: 0px 50px 50px 0px;
-	border: 2px solid  #ffcc00;
 	flex:1 1 auto;
-
+	display: flex;
+	align-items: center;
 }
 
 .CopyStep:hover {
 	background: #dbaf00;
-	border-color: #dbaf00;
 }
 
 .icon-clear {
@@ -82,4 +64,3 @@
 	height:  20px;
 	background: url(../images/copy.png)-20px 0px;
 }
-
