@@ -1,0 +1,85 @@
+.Footer {
+	display: flex;
+	width: 100%;
+	border-top: 1px solid #ececec;
+
+}
+
+.NavFooter{
+	padding: 10px;
+	width: 800px;
+	height: 40px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.Check{
+	display: flex;
+	width: 400px;
+	flex:1 1 auto;
+}
+
+.Check p {
+	flex:1 1 auto;
+	padding: 10px;
+	color: #808080;
+	margin-right: 5px;
+}
+
+.Check p:hover {
+	color: #444444;
+}
+
+.Copy{
+	width: 400px;
+	margin-left: 5px; 
+	display: flex;
+	flex-flow: row nowrap;
+	flex:1 1 auto;
+}
+
+.Clear {
+	padding: 10px;
+	display: flex;
+	background: #ff0066;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 50px 0px 0px 50px;
+	border: 2px solid  #ff0066;
+	flex:1 1 auto;
+}
+
+.Clear:hover {
+	background: #d90057;
+	border-color: #d90057;
+}
+
+.CopyStep {
+	padding: 10px;
+	display: flex;
+	background: #ffcc00;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 0px 50px 50px 0px;
+	border: 2px solid  #ffcc00;
+	flex:1 1 auto;
+
+}
+
+.CopyStep:hover {
+	background: #dbaf00;
+	border-color: #dbaf00;
+}
+
+.icon-clear {
+	width: 20px;
+	height:  20px;
+	background: url(../images/copy.png)0px 0px;
+}
+
+.icon-copy {
+	width: 20px;
+	height:  20px;
+	background: url(../images/copy.png)-20px 0px;
+}
+

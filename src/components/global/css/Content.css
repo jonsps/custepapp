@@ -1,0 +1,102 @@
+.Content {
+	width: 800px;
+	display: flex;
+	flex:1;
+}
+
+.Buttons{
+	width: 400px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+
+}
+
+.Buttons ul{
+	margin-top: 5px;
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Buttons ul li{
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+	width: 42%;
+	color: #808080;
+	border-radius: 50px;
+	background: #dedede;
+
+}
+
+.Buttons ul li:hover{
+	background: #d3d3d3;
+}
+
+.Text{
+	background: #f9f9f9;
+	width: 400px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+}
+
+.texto{
+	width: 100%;
+}
+
+.titulo{
+	margin-top: 10px;
+	width: 100%;
+	height: 15px;
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: center;
+
+}
+
+.linea{
+	background: #ccc;
+	width: 80%;
+	height: 5px;
+
+}
+
+.titular{
+	border-radius: 0px 10px 10px 10px;
+	color: #7e009d;
+	text-align: center; 
+	background: #aa00d4;
+	width: 20%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #dedede; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4edcff; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00ccff; 
+}
+
+.copyli{
+	width: 30px;
+	height: 20px;
+	background: #ccc;
+	float: right;
+}
