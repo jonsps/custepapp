@@ -6,61 +6,7 @@
 }
 
 .Nav{
-	padding: 10px;
 	display: flex;
 	flex-flow: row nowrap;
 	width: 800px;
-}
-
-.Nav-Desktop {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	flex:1 1 auto;
-}
-
-.Nav-Desktop p{
-	text-align: left;
-	color: #808080;
-	flex:1 1 auto;
-}
-
-.Nav-logo {
-	display: flex;
-	flex:2 1 auto;
-}
-
-.logo {
-	height: 30px;
-}
-
-.Nav-User {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	flex:1 1 auto;
-	align-items: center;
-}
-
-.icon-home {
-	width: 20px;
-	height: 20px;
-	margin: 0px;
-	margin-left: 5px;
-	background: url('../images/icons.png')-20px 0px;
-}
-.icon-tools {
-	width: 20px;
-	height: 20px;
-	margin: 0px;
-	margin-left: 5px;
-	background: url('../images/icons.png')-40px 0px;
-}
-.icon-user {
-	width: 20px;
-	height: 20px;
-	margin: 0px;
-	margin-left: 5px;
-	background: url('../images/icons.png')-60px 0px;
 }
