@@ -1,4 +1,26 @@
 .TextArea {
-	width: 400px;
+	width:380px;
 	background: #f9f9f9;
+	overflow: auto;
+	padding: 0px 10px 0px 10px;
+}
+
+/* width */
+.TextArea::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.TextArea::-webkit-scrollbar-track {
+    background: #dedede; 
+}
+ 
+/* Handle */
+.TextArea::-webkit-scrollbar-thumb {
+    background: #ff0066; 
+}
+
+/* Handle on hover */
+.TextArea::-webkit-scrollbar-thumb:hover {
+    background: #d90057; 
 }
